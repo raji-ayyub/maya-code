@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+button,
+textarea {
+  color: inherit;
+  font: inherit;
+}
+
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.fixed { position: fixed; }
+.absolute { position: absolute; }
+.inset-0 { inset: 0; }
+.left-0 { left: 0; }
+.left-1\/2 { left: 50%; }
+.top-0 { top: 0; }
+.top-1\/2 { top: 50%; }
+.flex { display: flex; }
+.block { display: block; }
+.flex-1 { flex: 1 1 0%; }
+.shrink-0 { flex-shrink: 0; }
+.min-w-0 { min-width: 0; }
+.items-center { align-items: center; }
+.justify-center { justify-content: center; }
+.justify-between { justify-content: space-between; }
+.overflow-hidden { overflow: hidden; }
+.overflow-y-auto { overflow-y: auto; }
+.overflow-x-hidden { overflow-x: hidden; }
+.select-none { user-select: none; }
+.resize-none { resize: none; }
+.bg-transparent { background-color: transparent; }
+.outline-none { outline: none; }
+.m-0 { margin: 0; }
+.border-0 { border: 0; }
+.rounded-full { border-radius: 9999px; }
+.cursor-pointer { cursor: pointer; }
+.cursor-not-allowed { cursor: not-allowed; }
+.disabled\:cursor-not-allowed:disabled { cursor: not-allowed; }
+.disabled\:opacity-60:disabled { opacity: .6; }
+.placeholder\:text-\[\#5B5D82\]::placeholder { color: #5B5D82; }
+
+.maya-code-editor,
+.maya-code-editor .cm-editor {
+  width: 100%;
+  height: 100%;
+  background: #090a1c;
+  font-size: 19.5px;
+}
+
+.maya-code-editor .cm-scroller {
+  overflow: auto;
+  font-family: var(--font-mono), ui-monospace, monospace;
+  line-height: 40px;
+}
+
+.maya-code-editor .cm-content {
+  min-height: 100%;
+  padding: 23px 24px 23px 0;
+  caret-color: #ffc21a;
+}
+
+.maya-code-editor .cm-line {
+  padding: 0 24px 0 23px;
+}
+
+.maya-code-editor .cm-gutters {
+  min-width: 80px;
+  padding-top: 23px;
+  border: 0;
+  border-right: 1px solid #1d1f3a;
+  background: #0c0d21;
+  color: #8587ae;
+}
+
+.maya-code-editor .cm-lineNumbers .cm-gutterElement {
+  min-width: 80px;
+  padding: 0 18px 0 8px;
+  text-align: right;
+}
+
+.maya-code-editor .cm-activeLine {
+  background: rgb(255 255 255 / 3%);
+}
+
+.maya-code-editor .cm-activeLineGutter {
+  background: #11132c;
+  color: #d8daff;
+}

@@ -1,0 +1,7 @@
+venv
+.env
+node_modules
+archive
+.env.local
+.next
+.next-dev
